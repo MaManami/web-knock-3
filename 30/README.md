@@ -2,9 +2,9 @@
 別ファイル（main.jsなど）としてJavaScriptを書き，<script type="module" src="main.js"></script> でHTMLに読み込ませること．
 console.log("Hello, JavaScript!") を表示させて動作確認を行うこと．
 type="module" を付けるとどのような違いがあるか（読み込みのタイミング，importの利用など）を一言まとめること．
-===
 
 
+```
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -19,3 +19,4 @@ type="module" を付けるとどのような違いがあるか（読み込みの
   <p>ブラウザの開発者ツール（コンソール）を確認してください。</p>
 </body>
 </html>
+```
