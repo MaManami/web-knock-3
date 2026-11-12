@@ -40,4 +40,4 @@ console.log("num === str の結果:", num === str);
 ```
 
 結果のスクリーンショット\
-<img src="kekka_32.png" width="500" alt="結果">
+<img src="kekka_32.png" width="700" alt="結果">
