@@ -3,7 +3,7 @@
 例：2つの変数を比較し，大小を出力するなど
 ==と===の違いを確認すること．
 
-main.js
+### main.js
 ```
 // 1. 四則演算の処理
 const a = 12;
@@ -39,5 +39,5 @@ console.log("num == str の結果:", num == str);
 console.log("num === str の結果:", num === str);
 ```
 
-結果のスクリーンショット\
+### 結果のスクリーンショット
 <img src="kekka_32.png" width="700" alt="結果">
