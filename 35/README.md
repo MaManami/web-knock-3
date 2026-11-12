@@ -41,6 +41,8 @@ button.addEventListener("click", function() {
 });
 ```
 
+| タグ・関数 | 解説 |
+| ------------- | ------------- |
 | `document.querySelector("#my-button")`| HTMLの中にある目印（IDなど）を探して、JavaScriptで操作できるように捕まえてくる命令 |
 | `addEventListener("click", function() { ... })` | 「イベントリスナーを設定する」 |
 | `message.textContent = "..."` | 画面上の文字（テキスト）を新しく書き換えるためのプロパティ |
