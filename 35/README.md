@@ -25,6 +25,15 @@ HTMLにボタンを配置し，JavaScriptでaddEventListenerを用いてイベ�
 </html>
 ```
 
+addEventListener("click", function() { ... })
+
+「イベントリスナーを設定する」というおなじみの書き方です。
+
+「もし指定した要素（ボタン）が 'click'（クリック）されたら、{} の中身の処理をパッと実行してね！」という見張り役・実行役をしてくれます。
+
+message.textContent = "..."
+
+画面上の文字（テキスト）を新しく書き換えるためのプロパティです。
 
 ### main.js
 ```
@@ -41,6 +50,11 @@ button.addEventListener("click", function() {
   message.textContent = "成功🎉";
 });
 ```
+
+| `document.querySelector("#my-button")`| HTMLの中にある目印（IDなど）を探して、JavaScriptで操作できるように捕まえてくる命令 |
+| `addEventListener("click", function() { ... })` | 「イベントリスナーを設定する」 |
+| `message.textContent = "..."` | 画面上の文字（テキスト）を新しく書き換えるためのプロパティ |
+
 
 ### htmlファイルを開くと……
 <img src="kekka_35_1.png" width="700" alt="開いた時">
