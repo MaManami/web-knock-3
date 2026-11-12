@@ -52,5 +52,5 @@ button.addEventListener("click", function() {
 <img src="kekka_35_1.png" width="700" alt="開いた時">
 
 ### 「PUSH」を押すと……
-<img src="kekka_35_2.png" width="700" alt="押した時">
+<img src="kekka_35_2.png" width="700" alt="押した時">\
 <img src="kekka_35_3.png" width="700" alt="開いた時２">
