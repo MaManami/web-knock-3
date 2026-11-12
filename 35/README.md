@@ -25,16 +25,6 @@ HTMLにボタンを配置し，JavaScriptでaddEventListenerを用いてイベ�
 </html>
 ```
 
-addEventListener("click", function() { ... })
-
-「イベントリスナーを設定する」というおなじみの書き方です。
-
-「もし指定した要素（ボタン）が 'click'（クリック）されたら、{} の中身の処理をパッと実行してね！」という見張り役・実行役をしてくれます。
-
-message.textContent = "..."
-
-画面上の文字（テキスト）を新しく書き換えるためのプロパティです。
-
 ### main.js
 ```
 // 1. HTMLにあるボタンとメッセージ表示用の場所をJavaScriptで見つける
